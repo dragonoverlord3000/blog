@@ -1,0 +1,10 @@
+[submodule "dragonoverlord3000/themes/themes/eureka"]
+	path = dragonoverlord3000/themes/themes/eureka
+	url = https://github.com/wangchucheng/hugo-eureka.git
+[submodule "dragonoverlord3000/themes/eureka"]
+	path = dragonoverlord3000/themes/eureka
+	url = https://github.com/wangchucheng/hugo-eureka.git
+[submodule "dragonoverlord3000/public"]
+	path = dragonoverlord3000/public
+	url = https://github.com/dragonoverlord3000/dragonoverlord3000.github.io.git
+	branch = main
