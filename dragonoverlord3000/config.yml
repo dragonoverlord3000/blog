@@ -74,15 +74,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Dragonoverlord3000"
-    Content: Welcome to my personal site
+    Content: Welcome to my personal site &#127794&#9749 ![Example]("images/coffee.png")
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/13096923/dragonoverlord3000"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/dragonoverlord3000"
 
   analytics:
     google:
