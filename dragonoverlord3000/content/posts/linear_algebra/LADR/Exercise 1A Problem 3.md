@@ -1,7 +1,7 @@
 ---
 title: "Exercise 1A Problem 3"
 date: 2022-06-08T15:03:55+02:00
-description: "Linear Algebra Done Right - Exercise 1A Problem 1 - Solution"
+description: "Linear Algebra Done Right - Exercise 1A Problem 3 - Solution"
 tags: ["LADR", "linear algebra", "math"]
 categories: ["Linear Algebra"]
 math: true

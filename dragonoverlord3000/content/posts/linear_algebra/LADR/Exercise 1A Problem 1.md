@@ -19,13 +19,12 @@ A standard trick when dealing with the reciprocal of a complex numbers is to mul
 the numerator and the denominator by it's complex conjugate, as this will make the 
 denominator real. Applying this trick:
 \begin{equation}
-    c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} + \frac{b}{a^2 + b^2}i
+    c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i
 \end{equation}
 From comparing the real and imaginary parts of the left and right hand sides above:
 \begin{align}
-&c = \frac{a}{a^2 + b^2} &&\land &&d=\frac{b}{a^2 + b^2}
+&c = \frac{a}{a^2 + b^2} &&\land &&d= \frac{b}{a^2 + b^2}
 \end{align}
-
 <!-- 
 ### Geometric
 Geometrically, one can view reciprocation of a complex number as [circular inversion](https://artofproblemsolving.com/wiki/index.php/Circular_Inversion) about the complex unit circle. Therefore 1/(a + bi) is a complex number proportional to a + bi and 

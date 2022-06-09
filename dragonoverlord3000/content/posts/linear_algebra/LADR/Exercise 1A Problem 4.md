@@ -1,7 +1,7 @@
 ---
 title: "Exercise 1A Problem 4"
-date: 2022-06-08T15:03:55+02:00
-description: "Linear Algebra Done Right - Exercise 1A Problem 1 - Solution"
+date: 2022-06-08T15:04:55+02:00
+description: "Linear Algebra Done Right - Exercise 1A Problem 4 - Solution"
 tags: ["LADR", "linear algebra", "math"]
 categories: ["Linear Algebra"]
 math: true
@@ -15,8 +15,8 @@ Show that $\alpha + \beta = \beta + \alpha$ for all $\alpha, \beta \in \mathbb{C
 
 ## Solution
 Let $\alpha = a + bi$ and $\beta = c + di$ for real numbers $a,b,c$ and $d$. Then by commutativity of real numbers we must have:
-$$\alpha + \beta = a + bi + c + di = (a + c) + (b + d)i$$
-$$= (c + a) + (d + b)i = c + di + a + bi = \beta + \alpha$$
+$$\alpha + \beta = (a + bi) + (c + di) = (a + c) + (b + d)i$$
+$$= (c + a) + (d + b)i = (c + di) + (a + bi) = \beta + \alpha$$
 Implying that complex numbers commute under addition.
 
 
