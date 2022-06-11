@@ -16,8 +16,8 @@ Show that $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ for all $\al
 Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$. Then by the associativity
 of real numbers:
 $$(\alpha + \beta) + \lambda = \left((a + bi) + (c + di)\right) + (e + fi)$$
-$$= ((a + c) + (b + d)i) + (e + fi) = ((a + c) + e) + ((b + d) + f)i$$
-$$= (a + (c + e)) + (b + (d + f))i = (a + bi) + ((c + e) + (d + f)i)$$
+$$\stackrel{D1.1}{=} ((a + c) + (b + d)i) + (e + fi) \stackrel{D1.1}{=} ((a + c) + e) + ((b + d) + f)i$$
+$$= (a + (c + e)) + (b + (d + f))i \stackrel{D1.1}{=} (a + bi) + ((c + e) + (d + f)i)$$
 $$= \alpha + (\beta + \lambda)$$
 Proving the associativity complex numbers under addition.
 

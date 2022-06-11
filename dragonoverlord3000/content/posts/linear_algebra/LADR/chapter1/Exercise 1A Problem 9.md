@@ -14,10 +14,10 @@ Show that $\lambda (\alpha + \beta) = \lambda \alpha + \lambda \beta$ for all $\
 
 ## Solution
 Let $\alpha = a + bi$, $\beta = c + di$ and $\lambda = e + fi$, then:
-$$\lambda (\alpha + \beta) = (e + fi)\left((a + bi) + (c + di)\right) = (e + fi)\left((a + c) + (b + d)i\right)$$
-$$= (ea + ec - fb - fd) + (eb + ed + af + cf)i$$
+$$\lambda (\alpha + \beta) = (e + fi)\left((a + bi) + (c + di)\right) \stackrel{D1.1}{=} (e + fi)\left((a + c) + (b + d)i\right)$$
+$$\stackrel{D1.1}{=} (ea + ec - fb - fd) + (eb + ed + af + cf)i$$
 $$= \left((ea - fb) + (ec - fd)\right) + \left((eb + af) + (ed + cf)\right)i$$
-$$= \left((ea - fb) + (eb + af)i\right) + \left((ec - fd) + (ed + cf)i\right)$$
-$$= (e + fi)(a + bi) + (e + fi)(c + di) = \lambda \alpha + \lambda \beta$$
+$$\stackrel{D1.1}{=} \left((ea - fb) + (eb + af)i\right) + \left((ec - fd) + (ed + cf)i\right)$$
+$$\stackrel{D1.1}{=} (e + fi)(a + bi) + (e + fi)(c + di) = \lambda \alpha + \lambda \beta$$
 Proving the distributive property of complex numbers.
 

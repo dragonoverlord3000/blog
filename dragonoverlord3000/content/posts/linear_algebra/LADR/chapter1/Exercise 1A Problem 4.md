@@ -15,8 +15,8 @@ Show that $\alpha + \beta = \beta + \alpha$ for all $\alpha, \beta \in \mathbb{C
 
 ## Solution
 Let $\alpha = a + bi$ and $\beta = c + di$ for real numbers $a,b,c$ and $d$. Then by commutativity of real numbers we must have:
-$$\alpha + \beta = (a + bi) + (c + di) = (a + c) + (b + d)i$$
-$$= (c + a) + (d + b)i = (c + di) + (a + bi) = \beta + \alpha$$
+$$\alpha + \beta = (a + bi) + (c + di) \stackrel{D1.1}{=} (a + c) + (b + d)i$$
+$$= (c + a) + (d + b)i \stackrel{D1.1}{=} (c + di) + (a + bi) = \beta + \alpha$$
 Implying that complex numbers commute under addition.
 
 

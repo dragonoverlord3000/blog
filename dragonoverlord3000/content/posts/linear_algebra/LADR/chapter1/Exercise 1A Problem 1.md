@@ -14,30 +14,22 @@ Suppose <i>a</i> and <i>b</i> are real numbers, not both 0. Find real numbers <i
 $$\frac{1}{a + bi} = c + di$$
 
 ## Solution
-<!-- ### Algebraic -->
+<!-- ### Algebra -->
 A standard trick when dealing with the reciprocal of a complex numbers is to multiply
 the numerator and the denominator by it's complex conjugate, as this will make the 
 denominator real. Applying this trick:
-\begin{equation}
-    c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i
-\end{equation}
+$$c + di = \frac{1}{a + bi} = \frac{a - bi}{a - bi} \cdot \frac{1}{a + bi} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i$$
 From comparing the real and imaginary parts of the left and right hand sides above:
-\begin{align}
-&c = \frac{a}{a^2 + b^2} &&\land &&d= \frac{b}{a^2 + b^2}
-\end{align}
-<!-- 
-### Geometric
-Geometrically, one can view reciprocation of a complex number as [circular inversion](https://artofproblemsolving.com/wiki/index.php/Circular_Inversion) about the complex unit circle. Therefore 1/(a + bi) is a complex number proportional to a + bi and 
-with a magnitude that is the reciprocal of the magnitude of a + bi. The only such number
-is:
-\begin{equation}
-    \frac{1}{|a + bi|^2}(a + bi) = \frac{a}{a^2 + b^2} + \frac{b}{a^2 + b^2}i
-\end{equation}
-Here's an illustration: -->
+$$c = \frac{a}{a^2 + b^2} \land d= \frac{b}{a^2 + b^2}$$
+Note that the solution lies on the same line as $\overline{z}$ and it's magnitude is 
+the reciprocal of the magnitude of $z = a + bi$.
 
-
-
-
+<!-- ### Geometry
+Complex numbers induce a rotation by the angle of the complex number and a scaling of it's magnitude to any number on which it is multiplied. If we let $z = a + bi$, then we would like to create a number $1/z$ which rotates $z$ onto the real line and scales $z$ by the reciprocal of it's magnitude so that $z \frac{1}{z} = 1$. To construct such a number we can use the fact that the complex conjugate of $z = a + bi$, that is $\overline{z} = a - bi$ has the negative of $z$'s angle with the real axis.
+![Complex Conjugate](/LADR/Chapter1/ex1a_complex_conj.png "Image title")
+Therefore $1/z$ lies on the line from the origin in the complex plane to $\overline{z}$ - this is exactly the line which rotates $z$ onto the real axis.
+For $1/z$ to have the inverse magnitude of $z$ we scale $\overline{z}$ to have magnitude $1$ and then divide by the magnitude of $z$, that is (note from the figure above that $|z| = |\overline{z}|$): 
+$$c + di = \frac{1}{z} = \frac{\overline{z}}{|z||\overline{z}|} = \frac{\overline{z}}{|z||z|} = \frac{\overline{z}}{|z||z|} = \frac{a - bi}{a^2 + b^2} = \frac{a}{a^2 + b^2} - \frac{b}{a^2 + b^2}i$$ -->
 
 
 
