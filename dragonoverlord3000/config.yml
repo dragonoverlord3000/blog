@@ -114,6 +114,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: publications
+      name: publications
+      url: /publications/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
@@ -122,10 +126,11 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: KAEPLE
+      name: KAEPLE
+      url: https://kaeple.com
+      weight: 30 
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
