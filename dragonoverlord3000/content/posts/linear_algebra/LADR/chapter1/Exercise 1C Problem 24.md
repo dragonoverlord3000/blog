@@ -1,8 +1,12 @@
 ---
 title: "Exercise 1C Problem 24"
 date: 2022-06-24T16:00:44+02:00
+description: "Linear Algebra Done Right - Exercise 1C Problem 24 - Solution"
+tags: ["LADR", "linear algebra", "math"]
+categories: ["Linear Algebra"]
 math: true
-draft: true
+showtoc: true
+env: production
 ---
 
 ## Problem
