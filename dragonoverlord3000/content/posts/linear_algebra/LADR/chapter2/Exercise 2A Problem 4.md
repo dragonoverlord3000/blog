@@ -1,7 +1,7 @@
 ---
 title: "Exercise 2A Problem 4"
 date: 2022-06-25T18:00:51+02:00
-description: "Linear Algebra Done Right - Exercise 2A Problem 3 - Solution"
+description: "Linear Algebra Done Right - Exercise 2A Problem 4 - Solution"
 tags: ["LADR", "linear algebra", "math"]
 categories: ["Linear Algebra"]
 math: true
