@@ -1,7 +1,7 @@
 ---
 title: "Exercise 2A Problem 17"
 date: 2022-06-26T10:37:44+02:00
-description: "Linear Algebra Done Right - Exercise 2A Problem 16 - Solution"
+description: "Linear Algebra Done Right - Exercise 2A Problem 17 - Solution"
 tags: ["LADR", "linear algebra", "math"]
 categories: ["Linear Algebra"]
 math: true
