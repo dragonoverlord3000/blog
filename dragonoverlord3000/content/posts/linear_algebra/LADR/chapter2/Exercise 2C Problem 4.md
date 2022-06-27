@@ -1,8 +1,12 @@
 ---
 title: "Exercise 2C Problem 4"
 date: 2022-06-27T10:23:58+02:00
+description: "Linear Algebra Done Right - Exercise 2C Problem 4 - Solution"
+tags: ["LADR", "linear algebra", "math"]
+categories: ["Linear Algebra"]
 math: true
-draft: true
+showtoc: true
+env: production
 ---
 
 ## Problem
